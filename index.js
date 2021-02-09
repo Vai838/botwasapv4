@@ -888,7 +888,7 @@ client.on('group-participants-update', async (anu) => {
 					teks += `𝗧𝗼𝘁𝗮𝗹 : ${blocked.length}`
 					client.sendMessage(from, teks.trim(), extendedText, {quoted: mek, contextInfo: {"mentionedJid": blocked}})
 					break 
-				case 'donation':
+				case 'donasi':
 				case 'donate':
 				if (!isRegistered) return reply(ind.noregis())
 					client.sendMessage(from, donasi(), text)
